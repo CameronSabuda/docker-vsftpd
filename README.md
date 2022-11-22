@@ -1,3 +1,7 @@
+This is a fork of fauria's vsftpd docker image. Because this is built on top of CentOS which has an arm compatible image, this has been built for both arm64 and amd64 architectures and then uploaded to the Docker Hub here: https://hub.docker.com/r/cameronsabuda/vsftpd 
+
+This should allow people to use fauria's docker image without having to run it in emulation mode when running on arm architectures.
+
 # fauria/vsftpd
 
 ![docker_logo](https://raw.githubusercontent.com/fauria/docker-vsftpd/master/docker_139x115.png)![docker_fauria_logo](https://raw.githubusercontent.com/fauria/docker-vsftpd/master/docker_fauria_161x115.png)
